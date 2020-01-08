@@ -7,7 +7,7 @@ first use TZWORKS to parse Master File Table:
 
 ntfswalk64 -mftfile files/C/$MFT > mft
 
-Then run -> python mftAnomaly.py mft
+Then run -> python mft.py mft
 
 output example:
 
