@@ -5,7 +5,7 @@ mftAnomaly - forensic timestamp tampering
 
 first use TZWORKS to parse Master File Table: 
 
-ntfswalk64 -mftfile files/C/$MFT > mft
+ntfswalk64 -mftfile $MFT > mft
 
 Then run -> python mft.py mft
 
