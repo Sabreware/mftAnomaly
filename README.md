@@ -1,13 +1,13 @@
 mftAnomaly
 ================
 
-mftAnomaly - forensic timestamp tampering
+mftAnomaly - forensic timestamp tampering and file tunneling detection
 
 first use TZWORKS to parse Master File Table: 
 
-ntfswalk64 -mftfile $MFT > mft
+ntfswalk64 -mftfile $MFT > mftfile
 
-Then run -> python mft.py mft
+Then run -> python mft.py mftfile
 
 output example:
 
