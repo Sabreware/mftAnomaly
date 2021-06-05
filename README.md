@@ -9,11 +9,11 @@ ntfswalk64 -mftfile $MFT > mftfile
 
 Then run -> python mft.py file stomp
 
-python mft.py file stomp "Users\user" <-- only this directory<br>
+python mft.py mftfile stomp "Users\user" <-- only this directory<br>
 
 or<br>
 
-python mft.py file tunnel "filename" <-- only check for this filename
+python mft.py mftfile tunnel "filename" <-- only check for this filename
 
 output example:
 
