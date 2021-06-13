@@ -60,5 +60,3 @@ sorted_x = sorted(totalA.items(), key=operator.itemgetter(1))
 print "\nSUMMARY...\n"
 for each in sorted_x:
     print each                
-                
-# and x[x.find('si'):][4:8] == 'mac.':
