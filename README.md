@@ -7,7 +7,7 @@ first use TZWORKS to parse Master File Table:
 
 ntfswalk64 -mftfile $MFT > mftfile
 
-Then run -> python mft.py file stomp
+Then run -> python mft.py mftfile stomp
 
 python mft.py mftfile stomp "Users\user" <-- only this directory<br>
 
