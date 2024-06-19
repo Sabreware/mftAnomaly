@@ -7,12 +7,12 @@ mft anomaly - forensic timestamp tampering and file tunneling detection
      tzworks.net -> ntfswalk64 
 
 <b>execution</b>
-1) ntfswalk64 -mftfile $MFT > mftfile
-2) run -> python mft.py mftfile stomp ""
-     or
+1) ntfswalk64 -mftfile $MFT > mftfile<br>
+2) python mft.py mftfile stomp ""<br>
+     or<br>
    python mft.py mftfile stomp "Users\user" <-- only this directory<br>
-     or
-   python mft.py mftfile tunnel "filename" <-- only check for this filename
+     or<br>
+   python mft.py mftfile tunnel "filename" <-- only check for this filename<br>
 
 <b>output</b>
 
