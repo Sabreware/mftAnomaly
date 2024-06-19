@@ -4,7 +4,8 @@ $MFT timestomping and tunneling detection
 mft anomaly - forensic timestamp tampering and file tunneling detection
 
 <b>prerequisites</b> <br>
-     tzworks.net -> ntfswalk64 
+
+tzworks.net -> ntfswalk64 
 
 <b>execution</b>
 1) ntfswalk64 -mftfile $MFT > mftfile<br>
