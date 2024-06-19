@@ -15,7 +15,7 @@ or
 
 or<br>
 
-python mft.py mftfile tunnel "filename" <-- only check for this filename
+2) python mft.py mftfile tunnel "filename" <-- only check for this filename
 
 output example:
 
