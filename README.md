@@ -1,4 +1,4 @@
-mftAnomaly
+$MFT timestomping and tunneling detection
 ================
 
 mftAnomaly - forensic timestamp tampering and file tunneling detection
