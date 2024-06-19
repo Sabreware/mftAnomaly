@@ -11,7 +11,7 @@ tzworks.net -> ntfswalk64
 1) ntfswalk64 -mftfile $MFT > mftfile<br>
 2) python mft.py mftfile stomp ""<br>
      or<br>
-   python mft.py mftfile stomp "Users\user" <-- only this directory<br>
+   python mft.py mftfile stomp "" | "Users\user" <-- only this directory<br>
      or<br>
    python mft.py mftfile tunnel "filename" <-- only check for this filename<br>
 
