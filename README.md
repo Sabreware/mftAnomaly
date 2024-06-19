@@ -1,9 +1,9 @@
 $MFT timestomping and tunneling detection
 ================
 
-mftAnomaly - forensic timestamp tampering and file tunneling detection
+mft anomaly - forensic timestamp tampering and file tunneling detection
 
-first use TZWORKS to parse Master File Table: 
+prerequisites: tzworks.net -> ntfswalk64 
 
 1) ntfswalk64 -mftfile $MFT > mftfile
 
