@@ -33,10 +33,10 @@ with open(str(sys.argv[1])) as f:
                         elif  ('b' in each[each.find('fn'):][4:8]):
                             if each.split('|')[11].strip() in myList:
                                 if (datetime.strptime(myList[each.split('|')[11].strip()].split(',')[0].strip()+' '+myList[each.split('|')[11].strip()].split(',')[1].strip(), '%Y-%m-%d %H:%M:%S.%f')  < datetime.strptime(each.split('|')[7].strip()+' '+each.split('|')[8].strip(), '%Y-%m-%d %H:%M:%S.%f')):
-                                    print "ANOMALY---"
-                                    print "\t" + each.split('|')[11].strip()
-                                    print "\t$STD_INFO: " + str(myList[each.split('|')[11].strip()].split(',')[0] + myList[each.split('|')[11].strip()].split(',')[1])
-                                    print "\t$FILE_NAME: " + each.split('|')[7].strip()+' '+each.split('|')[8].strip()
+                                    print ("ANOMALY---")
+                                    print ("\t" + each.split('|')[11].strip())
+                                    print ("\t$STD_INFO: " + str(myList[each.split('|')[11].strip()].split(',')[0] + myList[each.split('|')[11].strip()].split(',')[1]))
+                                    print ("\t$FILE_NAME: " + each.split('|')[7].strip()+' '+each.split('|')[8].strip())
                                     if each.split('|')[7].strip() in anomalies:
                                         anomalies[each.split('|')[7].strip()] += 1
                                     else:
@@ -61,7 +61,7 @@ with open(str(sys.argv[1])) as f:
 
 sorted_x = sorted(anomalies.items(), key=operator.itemgetter(1))
 
-print "\nSUMMARY...\n"
+print ("\nSUMMARY...\n")
 for each in sorted_x:
-    print each                
+    print (each)
                 
